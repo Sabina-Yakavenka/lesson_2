@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;   
+}
+
+body {
+    background-color:beige;    
+}
+.awesome {
+    margin-top: 100px ; 
+    font-family: Raleway, sans-serif;
+    font-size: 36px;
+    line-height: 42px;
+    color: #212121;
+    }
+.why-awesome{
+    font-size: 0;
+}
+.awesome-content-text{
+    margin-top: 25px;
+    font-size: 14px;
+    color: #86878B;
+}
+.awesome-line{
+    display: inline-block;
+    width: 10%;
+    height: 2px;
+    margin: 3% 45% 0 45%;
+    border:#E72424 solid 1px;
+}
+.why-awesome-block{
+    font-family: "Open Sans", sans-serif; 
+    margin-top: 100px;
+    width: 33.33%;
+    display: inline-block;
+    font-size: 14px;
+}
+.circle {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    border: 1px solid #E72424; 
+    border-radius: 50%;
+    background: beige;
+    padding: 20px; 
+    /* я не понимаю, почему клавитура - единственная иконка, которая не стала посередине:( скорее всего я что-то сделала не так*/
+}
+.why-awesome-block-title{
+    margin-top: 25px;
+    font-size: 20px;
+    color: #333333;
+}
+.why-awesome-block-text{
+    margin-top: 25px;
+    margin-bottom: 100px;
+    font-size: 14px;
+    color: #000000;
+}
